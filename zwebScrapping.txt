@@ -1,0 +1,19 @@
+abhi tak ml me 
+web scrapping --> - simple request module se get request 
+                  - beautiful soup se html,css,js data parse kiya taaki better dikh sake 
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+you can use cli "headless" browser like --> "puppeteer" to make request and getting the data 
+then we can use parsing tool like --> "cheerio" to filter the data 
+
+
+but things gets complicated, below are obstacles 
+    big companies avoid scrapping and if they found you they acn block the ip address 
+    - captchas 
+    - ipblocking and rate limiting (too many requests not possible)
+    - dynamic content : react loads the content after initial page load 
+    - ip rotations and others 
+
+
+BrightData --> they have made a headfull browser, who does this on our behalf 
